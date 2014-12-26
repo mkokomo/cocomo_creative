@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^cocomocreative\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.cocomocreative\.com$
+RewriteRule ^/?$ "http\:\/\/www\.cocomocreative\.com\/index\.php" [R=301,L]
+
