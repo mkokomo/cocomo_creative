@@ -2,9 +2,7 @@
 
 $pageTitle = "Active Minds | Cocomo Creative";
 
-include ('/inc/begin.php');
-
-
+include ($root_directory . 'inc/begin.php');
 
 ?>
 
@@ -39,7 +37,7 @@ function MM_swapImage() { //v3.0
 
 $section = "The Work";
 
-include ('inc/nav.php');
+include ($root_directory . '/inc/nav.php');
 
 ?>
 
@@ -227,4 +225,4 @@ include ('inc/nav.php');
     </div> <!-- /container -->
 </div> <!-- /wrap -->
 
-<?php include('inc/footer.php'); ?>
+<?php include ($root_directory . 'inc/footer.php'); ?>
