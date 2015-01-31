@@ -2,8 +2,8 @@
 
 $pageTitle = "Active Minds | Cocomo Creative";
 
-include ($_SERVER['DOCUMENT_ROOT'] . "/cocomocreative/inc/loader.php");
-include ($root_directory . "/portfolio/inc/begin.php");
+//include ($_SERVER['DOCUMENT_ROOT'] . "/cocomocreative/inc/loader.php");
+include ('inc/begin.php');
 
 ?>
 
@@ -33,12 +33,20 @@ function MM_swapImage() { //v3.0
 </head>
 
 <body onLoad="MM_preloadImages('portfolio/images/portfolio/print_speakers_thumbroll.jpg','portfolio/images/portfolio/electronote_thumbroll.jpg','portfolio/images/portfolio/willm_thumbroll.jpg','portfolio/images/portfolio/cellardoor_thumbroll.jpg','portfolio/images/portfolio/lesjamelles_thumbroll.jpg','portfolio/images/portfolio/pierrequiroule_thumbroll.jpg','portfolio/images/portfolio/activeminds_thumbroll.jpg')">
-  
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KBDNPG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KBDNPG');</script>
+<!-- End Google Tag Manager -->  
 <?php
 
 $section = "The Work";
 
-include ($root_directory . '/portfolio/inc/nav.php');
+include ('inc/nav.php');
 
 ?>
 
@@ -107,6 +115,11 @@ include ($root_directory . '/portfolio/inc/nav.php');
                 	<img src="../images/portfolio/activeminds_12.jpg" width="368" height="420" alt="2011 National Conference">
                 </div>
                 <div class="clear"></div>
+                <div class="row-fluid">
+                  <div class="span12 project_image">
+                      <img src="../images/portfolio/activeminds_14.jpg" alt="2014 National Conference">
+                    </div>
+                </div>
                 <div class="project_caption">
                 	<h4>Previous National Conference Logos</h4>
                 </div>

@@ -17,3 +17,5 @@
   ga('create', 'UA-47047768-1', 'cocomocreative.com');
   ga('send', 'pageview');
 </script>
+<script src="http://code.jquery.com/jquery-latest.js"></script> 
+<script src="http://maxcdn.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>

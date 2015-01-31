@@ -2,8 +2,8 @@
 
 $pageTitle = "Speakers Bureau | Cocomo Creative";
 
-include ($_SERVER['DOCUMENT_ROOT'] . "/cocomocreative/inc/loader.php");
-include ($root_directory . "/portfolio/inc/begin.php");
+//include ($_SERVER['DOCUMENT_ROOT'] . "/cocomocreative/inc/loader.php");
+include ('inc/begin.php');
 
 ?>
 
@@ -39,7 +39,7 @@ function MM_swapImage() { //v3.0
 
 $section = "The Work";
 
-include ($root_directory . '/portfolio/inc/nav.php');
+include ('inc/nav.php');
 
 ?>
 
@@ -93,7 +93,7 @@ include ($root_directory . '/portfolio/inc/nav.php');
     
    	<div class="span4">
       		<div class="project_name">
-            	<h2 class="text-left">Speakers Bureau Postcard</h2>
+            	<h2 class="text-left">Speakers Bureau</h2>
             </div>
             <div class="project_description">
             	<p class="project_description">In 2012, Active Minds asked me to create a marketing material to boost interest in the organization's Speakers Bureau. </p>

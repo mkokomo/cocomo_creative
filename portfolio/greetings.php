@@ -2,8 +2,8 @@
 
 $pageTitle = "Greetings | Cocomo Creative";
 
-include ($_SERVER['DOCUMENT_ROOT'] . "/cocomocreative/inc/loader.php");
-include ($root_directory . "/portfolio/inc/begin.php");
+//include ($_SERVER['DOCUMENT_ROOT'] . "/cocomocreative/inc/loader.php");
+include ('inc/begin.php');
 
 ?>
 
@@ -39,7 +39,7 @@ function MM_swapImage() { //v3.0
 
 $section = "The Work";
 
-include ($root_directory . '/portfolio/inc/nav.php');
+include ('inc/nav.php');
 
 ?>
 
@@ -55,14 +55,6 @@ include ($root_directory . '/portfolio/inc/nav.php');
     <article class="span12">
     
     	<div class="span8 project_items">
-        	<div class="project_item">
-        		<div class="span12 project_image">
-   	    			<img src="../images/portfolio/greetings_1.jpg" width="740" height="577" alt="Cellar Door Selections Holiday Card">
-        		</div>
-                <div class="project_caption">
-                	<h4>Cellar Door Selections Holiday Card</h4>
-                </div>
-            </div>
 	
                 <div class="row-fluid">
         			<div class="span12 project_image_medium text-center">

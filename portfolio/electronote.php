@@ -2,8 +2,8 @@
 
 $pageTitle = "Electronote | Cocomo Creative";
 
-include ($_SERVER['DOCUMENT_ROOT'] . "/cocomocreative/inc/loader.php");
-include ($root_directory . "/portfolio/inc/begin.php");
+//include ($_SERVER['DOCUMENT_ROOT'] . "/cocomocreative/inc/loader.php");
+include ('inc/begin.php');
 
 ?>
 
@@ -38,7 +38,7 @@ function MM_swapImage() { //v3.0
 
 $section = "The Work";
 
-include ($root_directory . '/portfolio/inc/nav.php');
+include ('inc/nav.php');
 
 ?>
 
